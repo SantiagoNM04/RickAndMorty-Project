@@ -1,0 +1,18 @@
+.close-button{
+    background-color: #6ECCAF;
+    border: none;
+}
+
+.close-icon{
+    color: #08110e;
+}
+
+.infocard-item{
+    border: 1px solid #1d2d3b;
+}
+
+.infocard-item:hover{
+    background-color: #6ECCAF;
+    color: #1d2d3b;
+}
+

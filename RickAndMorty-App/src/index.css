@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/rickymorty.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 768px) {
+  body{
+      background-position: -90vw;
+  }
+}

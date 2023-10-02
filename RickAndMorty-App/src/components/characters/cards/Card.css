@@ -1,0 +1,35 @@
+.card-container{
+    color: #6ECCAF;
+    background-color: #344D67;
+    animation: scale .3s ease 0s 1 normal forwards;
+    z-index: 0;
+}
+
+.card-container:hover{
+    scale: 1.05;
+    transition: all .2s ease;
+    
+}
+
+.character-img{
+    box-shadow: 0px 17px 30px 5px #071f17;
+}
+
+.button-card{
+    background-color: #6ECCAF;
+    color: #344D67;
+    border: none;
+}
+
+@keyframes scale {
+        0% {
+            opacity: 0;
+            transform: scale(0.6);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    
+}
