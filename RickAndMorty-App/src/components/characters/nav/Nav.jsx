@@ -18,7 +18,7 @@ export const Nav = ({itemMenu}) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span><i class="toggler bi bi-list fs-1"></i></span>
+            <span><i className="toggler bi bi-list fs-1"></i></span>
           </button>
           <div
             className="collapse navbar-collapse d-flex justify-content-lg-end justify-content-md-start mt-4"
